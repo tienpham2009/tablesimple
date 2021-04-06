@@ -5,10 +5,10 @@ table {
 ;
 }
 td, th {
-    border: 1px solid #dddddd;
+    border: 1px solid blue;
     text-align: left;
     padding: 8px;
 }
-tr:nth-child(td) {background-color: #dddddd;
-;
+table tr:nth-child(odd){
+    background-color: darkcyan;
 }
